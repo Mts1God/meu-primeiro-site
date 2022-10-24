@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner{
+    background-image: url('../images/maxresdefault.jpg');
+    height: 789px;
+    background-position: center;
+    background-size: cover;
+
+}
+.column{
+    flex-direction: column;
+}
+.titulo{
+    font-size: 150px;
+    display:flex;
+    justify-content: center;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    padding: 450px 80px 62px 50px;
+}
+.box{
+    display: flex;
+    padding: 15px; 
+}
+
+.personagem{
+    padding: 50px;
+}
+
+.personagem:hover{
+
+    -webkit-box-shadow: 5px 5px 37px 17px #000000; 
+    box-shadow: 5px 5px 37px 17px #000000;
+    margin-right: 2px;
+}
+p{
+    color: #FFA000;
+}
+.nome{
+
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000;
+font-size: 30px;
+ color: #fffdd9;
+}
+
+
+
